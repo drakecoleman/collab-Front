@@ -18,9 +18,17 @@ button {
   margin: auto 1vw;
 }
 form {
-  background-color: red;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
 }
 form input {
   font-size: 2vw;
+  margin: 1.2vw auto;
+}
+form button {
+  width: 20%;
+  margin: auto;
 }
